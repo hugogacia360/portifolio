@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -133,10 +133,22 @@
             font-style: Poppins;
             font-style: normal;
             font-weight: 600;
-            font-size: 24px;
-            line-height: 24px;
+            font-size: 22px;
+            line-height: auto;
             color: #000000;
         }
+        TextCenter{
+            text-align: center;
+        }
+        #services .textcenter h3{
+            font-style: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            color: #070F18;
+        }
+ 
     </style>
 </head>
 
@@ -147,9 +159,9 @@
         </div>
         <div id="menu">
             <ul>
-                <li> <a href="">Meus serviços</a></li>
-                <li> <a href="">Contato</a></li>
-                <li> <a href="">Portifolio</a></li>
+                <li> <a href="#services">Meus Projetos</a></li>
+                <li> <a href="#headerClientText">Contato</a></li>
+                <li> <a href="">Portifólio</a></li>
             </ul>
         </div>
     </div>
@@ -160,9 +172,9 @@
                 é Hugo Garcia
             </h1>
             <p>Sou programador e gostaria de apresentar meus<br>
-                projetos através desse Portifolio
+                projetos através desse Portifólio
             </p>
-            <a id="buttonCta" href="">Meus serviços</a>
+            <a id="buttonCta" href="#headerClientText">Meus Projetos</a>
         </div>
         <div id="headerImg">
             <img src="img/profile.jpg">
@@ -172,11 +184,14 @@
     </div>
     <div class="container">
         <div id="headerClientText">
-            Minhas redes sociais<br>
+            Minhas redes sociais
 
         </div>
         <div class="headerLogo">
             <img src="img/linkedin.svg">
+        </div>
+        <div class="headerLogo">
+            <img src="img/github.svg">
         </div>
         <div class="headerLogo">
             <img src="img/facebook.svg">
@@ -188,17 +203,25 @@
     <div class="container">
         <div id="services">
             <h2 class="red">Conheça</h2>
-            <h1 class="black"> meus serviços</h1>
+            <h1 class="black"> Meus Projetos</h1>
         </div>
 
     </div>
 
-    <div class="container">
+    <div class="container" id="services">
         <div class="TextCenter">
+            <img src="img/project.png" width="50" height="auto"/>
+            <h3>Em Breve</h3>
+        </div>
+        <div class="TextCenter">
+            <img src="img/project.png" width="50" height="auto"/>
+            <h3>Em Breve</h3>
+        </div>
+        <div class="TextCenter">
+            <img src="img/project.png" width="50" height="auto"/>
+            <h3>Em Breve</h3>
             
         </div>
-        <div class="TextCenter"></div>
-        <div class="TextCenter"></div>
     </div>
 </body>
 
